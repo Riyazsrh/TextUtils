@@ -24,6 +24,9 @@ import {Link} from "react-router-dom";
           <Link className="nav-link" to="/">Pricing</Link>
         </li>
       </ul>
+      <div className='d-flex'>
+         <div className='bg-primary rounded'></div>
+      </div>
       <div className={`form-check form-switch text-${props.mode==='light'?'dark':'light'}`}>
   <input className="form-check-input" onClick={props.toggleMode} type="checkbox"  id="flexSwitchCheckDefault"/>
   <label className="form-check-label" htmlFor="flexSwitchCheckDefault">Enable DarkMode</label>

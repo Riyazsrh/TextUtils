@@ -59,7 +59,7 @@ const handleClear = () =>{
     <div className="container my-3"    style={{color:props.mode==='dark'?'white':'#042743'}}>
       <h1>Your Text Summary</h1>
       <p>{text.split (" ") .filter((element)=>{return element.length!==0}) .length} words and {text.length} characters</p>
-      <p>{0.008 * text.split(" ").length} Minutes to read </p>
+      <p>{0.008 * text.split(" ").filter((element)=>{return element.length!==0}).length} Minutes to read </p>
     </div>
     </>
   );

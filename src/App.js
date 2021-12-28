@@ -46,7 +46,7 @@ function App() {
         title="Textutils"
         mode={mode}
         toggleMode={toggleMode}
-        homeText="CashCounter"
+        homeText="NoteCounter"
         
       />
       <Alert alert={alert} />
