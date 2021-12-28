@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.main-div{
+  height: 680px;
+  background-color: rgb(43, 214, 157);
+}
+.middle-div{
+  display: grid;
+  place-items: center;
+}
+.values input{
+  height: 30px ;
+  font-size: 24px;
+}
