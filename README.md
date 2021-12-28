@@ -1,1 +1,1 @@
-Click here! To open textUtils  https://riyazsrh.github.io/
+Click here! To open textUtils  https://riyazsrh.github.io/TextUtils/
